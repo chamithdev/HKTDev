@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Data", "HKT.Data\HKT.Data.xproj", "{F2D93D85-A2E3-44D2-A290-5E9FDCEFEA22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RatingDomain", "RatingDomain", "{8F27926B-EBFB-4C9E-B507-340C6845439A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Rating.Data", "HKT.Rating.Data\HKT.Rating.Data.xproj", "{3C8348E3-D1F3-40B1-A33C-67589551C2AE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Rating.Entity", "HKT.Rating.Entity\HKT.Rating.Entity.xproj", "{E96FEB68-D01E-4C33-8DD6-39CF821CF66B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmployeeServiceDomain", "EmployeeServiceDomain", "{54F9B105-EC86-4177-B228-C9D4E42C3388}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Employee.Data", "HKT.Employee.Data\HKT.Employee.Data.xproj", "{2DEA1074-F851-49E0-B33B-8F786EE78436}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Rating.WebApi", "HKT.Rating.WebApi\HKT.Rating.WebApi.xproj", "{35127A8E-FBD7-4B21-9694-E894CC8525E9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Emplyee.Entity", "HKT.Emplyee.Entity\HKT.Emplyee.Entity.xproj", "{0D722210-5C4E-42BB-824A-BA7582C1B3AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D93D85-A2E3-44D2-A290-5E9FDCEFEA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D93D85-A2E3-44D2-A290-5E9FDCEFEA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D93D85-A2E3-44D2-A290-5E9FDCEFEA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D93D85-A2E3-44D2-A290-5E9FDCEFEA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8348E3-D1F3-40B1-A33C-67589551C2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8348E3-D1F3-40B1-A33C-67589551C2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8348E3-D1F3-40B1-A33C-67589551C2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8348E3-D1F3-40B1-A33C-67589551C2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96FEB68-D01E-4C33-8DD6-39CF821CF66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96FEB68-D01E-4C33-8DD6-39CF821CF66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96FEB68-D01E-4C33-8DD6-39CF821CF66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96FEB68-D01E-4C33-8DD6-39CF821CF66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DEA1074-F851-49E0-B33B-8F786EE78436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEA1074-F851-49E0-B33B-8F786EE78436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEA1074-F851-49E0-B33B-8F786EE78436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEA1074-F851-49E0-B33B-8F786EE78436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35127A8E-FBD7-4B21-9694-E894CC8525E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35127A8E-FBD7-4B21-9694-E894CC8525E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35127A8E-FBD7-4B21-9694-E894CC8525E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35127A8E-FBD7-4B21-9694-E894CC8525E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C8348E3-D1F3-40B1-A33C-67589551C2AE} = {8F27926B-EBFB-4C9E-B507-340C6845439A}
+		{E96FEB68-D01E-4C33-8DD6-39CF821CF66B} = {8F27926B-EBFB-4C9E-B507-340C6845439A}
+		{2DEA1074-F851-49E0-B33B-8F786EE78436} = {54F9B105-EC86-4177-B228-C9D4E42C3388}
+		{0D722210-5C4E-42BB-824A-BA7582C1B3AC} = {54F9B105-EC86-4177-B228-C9D4E42C3388}
+	EndGlobalSection
+EndGlobal
