@@ -19,6 +19,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Rating.WebApi", "HKT.Ra
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Emplyee.Entity", "HKT.Emplyee.Entity\HKT.Emplyee.Entity.xproj", "{0D722210-5C4E-42BB-824A-BA7582C1B3AC}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HKT.Common", "HKT.Common\HKT.Common.xproj", "{0951A6BB-6D56-4637-B032-8641BD107000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D722210-5C4E-42BB-824A-BA7582C1B3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0951A6BB-6D56-4637-B032-8641BD107000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0951A6BB-6D56-4637-B032-8641BD107000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0951A6BB-6D56-4637-B032-8641BD107000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0951A6BB-6D56-4637-B032-8641BD107000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

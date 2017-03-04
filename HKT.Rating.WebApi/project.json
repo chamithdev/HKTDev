@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",
@@ -24,7 +24,8 @@
     "HKT.Employee.Data": "1.0.0-*",
     "HKT.Emplyee.Entity": "1.0.0-*",
     "HKT.Rating.Data": "1.0.0-*",
-    "HKT.Rating.Entity": "1.0.0-*"
+    "HKT.Rating.Entity": "1.0.0-*",
+    "HKT.Common": "1.0.0-*"
   },
 
   "tools": {

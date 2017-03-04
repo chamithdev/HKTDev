@@ -8,11 +8,17 @@ namespace HKT.Rating.Entity
     public class Rating
     {
 
-        public int Id { get; set; }
+        public int EmpId { get; set; }
 
-        public int EmployeeId { get; set; }
+        public int ReportYear { get; set; }
 
-        public int RatingCategoryId { get; set; }
+        public int RateBlock { get; set; }
+
+        public DateTime RatedOn { get; set; }
+
+        public int RatedBy { get; set; }
+
+        public int CatId { get; set; }
 
         public int Rate { get; set; }
 

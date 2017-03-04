@@ -13,8 +13,6 @@ namespace HKT.Employee.Entity
 
         public bool IsActive { get; set; }
 
-        public string RatingContext { get; set; }
-
 
     }
 }

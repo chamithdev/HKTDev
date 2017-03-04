@@ -11,6 +11,8 @@ using Microsoft.EntityFrameworkCore;
 using HKT.Employee.Data;
 using HKT.Data;
 using HKT.Employee.Entity;
+using HKT.Rating.Entity;
+using HKT.Rating.Data;
 
 namespace HKT.Rating.WebApi
 {
@@ -47,6 +49,12 @@ namespace HKT.Rating.WebApi
             services.AddSingleton<IRepository<Department, EmployeeContext>, Repository<Department, EmployeeContext>>();
             services.AddSingleton<IRepository<Employee.Entity.Employee, EmployeeContext>, Repository<Employee.Entity.Employee, EmployeeContext>>();           
             services.AddSingleton<IUnitOfWork<EmployeeContext>, EmployeeUnitOfWork>();
+
+
+            services.AddSingleton<IRepository<RatingCategory, RateContext>, Repository<RatingCategory, RateContext>>();
+            services.AddSingleton<IRepository<Rating.Entity.Rating, RateContext>, Repository<Rating.Entity.Rating, RateContext>>();
+            services.AddSingleton<IUnitOfWork<RateContext>, RateUnitOfWork>();
+
 
 
             services.AddMvc();

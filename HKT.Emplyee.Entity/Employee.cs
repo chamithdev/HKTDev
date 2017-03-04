@@ -10,15 +10,19 @@ namespace HKT.Employee.Entity
     public class Employee
     {
 
-        public int Id { get; set; }
+        public int EmpId { get; set; }
 
-        public string Name { get; set; }
+        public bool EmpStatus { get; set; }
+
+        public string EmpName { get; set; }
 
         public int DepartmentId { get; set; }
 
-        public string RatingContext { get; set; }
+        public string EmpEmail { get; set; }
 
         public byte[] Photo { get; set; }
+
+        public int StartMonth { get; set; }
 
         [ForeignKey("DepartmentId")]
         public Department Department { get; set; }
